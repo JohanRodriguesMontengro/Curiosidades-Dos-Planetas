@@ -7,11 +7,12 @@
   <!-- Bootstrap Css -->
   <link rel="stylesheet" href="../modules/node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
 </head>
 <body>
     <header class="header">
-        <a href="index.html"><img src="../imgs/iconrock-red.svg" alt="Icon-Rock" class=icon-rock></a>
-        <a target="blank" href="https://programador.onebitcode.com/?ref=C54036552P"><img src="../imgs/logo-onebitcode.svg" alt="Icon-OneBitCode" class="icon-onebitcode"></a>
+        <a href="index.html"><img src="../imgs/imgs-svg/iconrock-red.svg" alt="Icon-Rock" class=icon-rock></a>
+        <a target="blank" href="https://programador.onebitcode.com/?ref=C54036552P"><img src="../imgs/imgs-svg//logo-onebitcode.svg" alt="Icon-OneBitCode" class="icon-onebitcode"></a>
                 <div class="buttons">
             <button class="buttonHeader">
                 <button class="btn btn-outline-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Acessar</button>
@@ -22,9 +23,9 @@
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    Home: <br>
+                    <strong>Home:</strong><br>
                     <a class="title" href="./index.html">Inicio</a><hr>
-                    Planetas: <br>
+                    <strong>Planetas:</strong><br>
                     <div class="sistemPlanests">
                         <a href="./pages/planets/mercurio.html">Mercúrio</a><br>
                         <a href="./pages/planets/venus.html">Vênus</a><br>
@@ -35,7 +36,7 @@
                         <a href="./pages/planets/urano.html">Urano</a><br>
                         <a href="./pages/planets/netuno.html">Netuno</a><hr>
                     </div>
-                    Estrelas: <br>
+                    <strong>Estrelas:</strong><br>
                     <div class="sistemStars">
                         <a href="./pages/stars/sun.html">Sol (No latim Solis).</a><br>
                         <a href="./pages/stars/VYCanisMajoris.html">VY Canis Majoris.</a><br>
@@ -52,7 +53,7 @@
                 <button class="btn btn-outline-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Planetas</button>
                   <div class="offcanvas offcanvas-start" data-bs-backdrop="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title offCanvasLeft" id="staticBackdropLabel">Planetas Do Sistema Solar:</h5>
+                  <h5 class="offcanvas-title offCanvasLeft" id="staticBackdropLabel">Veja alguns <strong>Planetas</strong>  Do Sistema Solar:</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -71,30 +72,52 @@
                 </div>
               </div>
         </button>
-                <button class="btn btn-outline-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Estrelas</button>
-                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Veja algumas estrelas do nosso Universo:</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div class="sistemStars">
-                        <a href="./pages/stars/sun.html">Sol (No latim Solis).</a><br>
-                        <a href="./pages/stars/VYCanisMajoris.html">VY Canis Majoris.</a><br>
-                        <a href="./pages/stars/WOHG64.html">WOH G64.</a><br>
-                        <a href="./pages/stars/Stephenson2-18.html">Stephenson 2-18</a><br>
-                        <a href="./pages/stars/UYScuti.html">UY Scuti</a><br>
-                        <a href="./pages/stars/NMLCygni.html">NML Cygni</a><br>
-                        <a href="./pages/stars/RWCephei.html">RW Cephei</a><br>
-                    </div>
-                </div>
+        <button class="btn btn-outline-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">Estrelas</button>
+          <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="staticBackdropLabel">Veja algumas estrelas nosso <strong> Sistema Solar:</strong></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-        </div>
+            <div class="offcanvas-body">
+              <div>
+                <div class="sistemStars">
+                    <a href="./pages/stars/sun.html">Sol (No latim Solis).</a><br>
+                    <a href="./pages/stars/VYCanisMajoris.html">VY Canis Majoris.</a><br>
+                    <a href="./pages/stars/WOHG64.html">WOH G64.</a><br>
+                    <a href="./pages/stars/Stephenson2-18.html">Stephenson 2-18</a><br>
+                    <a href="./pages/stars/UYScuti.html">UY Scuti</a><br>
+                    <a href="./pages/stars/NMLCygni.html">NML Cygni</a><br>
+                    <a href="./pages/stars/RWCephei.html">RW Cephei</a><br>
+                </div>
+              </div>
+            </div>
+          </div>
     </header>
-    <footer>
-        <div class="footer">
-         
-        </div>
+    <div class="container">
+        <div class="card mb-3">
+            <img src="/imgs/imgs-png/img-01-Space.png" class="card-img-top" alt="Space_Photo">
+            <div class="card-body">
+              <h5 class="card-title">Universo:</h5>
+              <p class="card-text">O <bonitinho><strong>Universo</strong></bonitinho> é tudo oque <bonitinho>existe fisicamente</bonitinho>, a soma do espaço e do tempo e as mais variadas formas de matéria, <bonitinho>planetas, estrelas, galáxias</bonitinho> e os componentes do espaço intergaláctico.
+                O termo Universo pode ser usado em sentidos contextuais ligeiramente diferentes, denotando conceitos como o cosmo, o mundo ou a natureza. O <bonitinho><strong>Universo observável</strong></bonitinho> tem de raio cerca de 46 bilhões de anos-luz. A observação científica do Universo levou a inferências de suas fases anteriores. Estas observações sugerem que o Universo é governado pelas mesmas leis físicas e constantes durante a maior parte de sua extensão e história.
+              </p>
+              <p class="card-text"><small class="text-muted">Copyright ©2022 All rights reserved & This site is made with by Johan</small><br>
+            Para saber mais sobre o <bonitinho><strong>Universo</strong></bonitinho>:<a target="blank" href="https://pt.wikipedia.org/wiki/Universo">Clique aqui!</a></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Sistema Solar:</h5>
+              <p class="card-text">O <bonitinho><strong>Sistema Solar</strong></bonitinho> compreende o conjunto constituído pelo <strong>Sol</strong> e todos os corpos celestes que estão sob seu domínio gravitacional. A estrela central, maior componente do sistema, respondendo por mais de <bonitinho>99,85%</bonitinho> da massa total, o Sol gera sua energia através da fusão de <bonitinho>hidrogênio em hélio,</bonitinho> dois de seus principais constituintes. Os quatro planetas mais próximos do Sol: <Bonitinho><strong>(Mercúrio, Vênus, Terra e Marte)</strong></Bonitinho>. Possuem em comum uma crosta sólida e rochosa, razão pela qual se classificam no grupo dos planetas <strong>telúricos ou rochosos.</strong> Mais afastados, os quatro gigantes gasosos: <bonitinho><strong>Júpiter, Saturno, Urano e Netuno,</strong></bonitinho> são os componentes de maior massa do sistema logo após o próprio Sol.
+                
+              </p>
+              <p class="card-text"><small class="text-muted">Copyright ©2022 All rights reserved & This site is made with by Johan</small><br>
+                Para saber mais sobre o <bonitinho><strong>Sistema Solar</strong></bonitinho>:<a target="blank" href="https://pt.wikipedia.org/wiki/Sistema_Solar">Clique aqui!</a></p>
+                </div></p>
+            </div>
+            <img src="/imgs/imgs-png/img-02-Solar-System.png" class="card-img-bottom" alt="Solar-System_Photo">
+          </div>
+    </div>
     <!-- Bootstrap JavaScript -->
     <script src="../modules/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>

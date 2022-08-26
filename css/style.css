@@ -2,7 +2,36 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-} 
+}
+body {
+    background-color: #d1d1d1;
+}
+a {
+    color: black;
+    text-decoration: underline;
+    font-size: 25px;
+}
+a:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    color: red;
+    font-size: 28px;
+}
+strong {
+    font-size: 20px;
+}
+p {
+    font-size: 18px;
+}
+bonitinho {
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(221, 82, 82);
+}
 .header {
     background-color: black;
     display: flex;
@@ -17,28 +46,13 @@
     width: 200px;
 }
 .sistemStars {
-    font-size: 22px;
+    font-size: 25px;
 }
 .sistemPlanests {
-    font-size: 22px;
+    font-size: 25px;
+    font-family: 'Roboto';
 }
 .title {
-    font-size: 22px;
-}
-.footer {
-    margin-top: 500px;
-}
-a {
-    color: black;
-    text-decoration: underline;
-}
-a:hover {
-    cursor: pointer;
-    transition: 0.6s;
-    -webkit-transition: 0.6s;
-    -moz-transition: 0.6s;
-    -ms-transition: 0.6s;
-    -o-transition: 0.6s;
-    color: red;
     font-size: 25px;
+    font-family: 'Roboto';
 }
