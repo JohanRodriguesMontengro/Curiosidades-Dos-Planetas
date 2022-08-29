@@ -7,5 +7,13 @@
         "Marineris",
         "Scuti",
         "Valles"
+    ],
+    "cSpell.language": "en,pt,pt-BR,lorem,en-US,en-GB",
+    "cSpell.enableFiletypes": [
+        "bat",
+        "bibtex",
+        "clojure",
+        "coffeescript",
+        "markdown_latex_combined"
     ]
 }
