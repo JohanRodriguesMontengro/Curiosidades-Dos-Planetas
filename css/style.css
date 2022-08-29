@@ -32,6 +32,10 @@ bonitinho {
     font-size: 20px;
     color: rgb(221, 82, 82);
 }
+.footer {
+    font-size: 25px;
+    background-color: black;
+}
 .header {
     background-color: black;
     display: flex;
